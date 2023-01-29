@@ -1,2 +1,4 @@
-# PRIA
- PRIA website for marketing
+# SevenHundred.store main website
+
+Created by Ionut Domniteanu
+ 
