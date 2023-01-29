@@ -1,0 +1,22 @@
+/** General Width Classes**/
+
+.w-95{width: 95% !important;}
+.w-70{width: 70% !important;}
+
+/** General Width Classes**/
+.h-37{height: 37.5px !important;}
+
+/** General Padding Classes **/
+.p-30 .p-t-30{ padding-top: 30px !important; }
+.p-30 .p-b-30{ padding-bottom: 30px !important; }
+.p-30 .p-l-30{ padding-left: 30px !important; }
+.p-30 .p-r-30{ padding-right: 30px !important; }
+
+/** General Margin Classes **/
+.m-70{margin: 70px !important;}
+
+
+.spacer{
+    height: 75px;
+    background-color: #000;
+}

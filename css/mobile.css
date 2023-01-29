@@ -1,0 +1,30 @@
+/** MOBILE SCREEN FORMAT **/
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .text-title-banner{
+        font-weight: bold !important;
+        font-size: 30px !important;
+
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .image-banner{
+        width: 100% !important;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {  }
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {  
+    #sidenav{
+        margin-right: 30% !important;
+    }
+}
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {  }
