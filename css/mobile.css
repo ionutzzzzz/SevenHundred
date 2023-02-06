@@ -17,11 +17,12 @@
     .image-banner{
         width: 100% !important;
     }
-    
  }
 
  /* Large devices (desktops, 992px and up) */
-@media (max-width: 992px) {  }
+@media (max-width: 992px) {
+    
+  }
 
  /* X-Large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) {  
