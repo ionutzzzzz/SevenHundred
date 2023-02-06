@@ -7,13 +7,18 @@
 .h-37{height: 37.5px !important;}
 
 /** General Padding Classes **/
-.p-30 .p-t-30{ padding-top: 30px !important; }
-.p-30 .p-b-30{ padding-bottom: 30px !important; }
-.p-30 .p-l-30{ padding-left: 30px !important; }
-.p-30 .p-r-30{ padding-right: 30px !important; }
+.p-30, .p-t-30{ padding-top: 30px !important; }
+.p-30, .p-b-30{ padding-bottom: 30px !important; }
+.p-30, .p-l-30{ padding-left: 30px !important; }
+.p-30, .p-r-30{ padding-right: 30px !important; }
 
 /** General Margin Classes **/
 .m-70{margin: 70px !important;}
+
+.m-10, .m-t-10{ margin-top: 10px !important; }
+.m-10, .m-b-10{ margin-bottom: 10px !important; }
+.m-10, .m-l-10{ margin-left: 10px !important; }
+.m-10, .m-r-10{ margin-right: 10px !important; }
 
 
 .spacer{

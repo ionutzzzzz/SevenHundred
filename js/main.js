@@ -12,17 +12,17 @@ function myAccFunc() {
   document.getElementById("myBtn").click();
   
   var k = 0;
-function call(){
-  k++;
-  if(k % 2 == 0)
-  {
-    w3_close();
+  function call(){
+    k++;
+    if(k % 2 == 0)
+    {
+      w3_close();
+    }
+    else
+    {
+      w3_open();
+    }
   }
-  else
-  {
-    w3_open();
-  }
-}
 
   // Open and close sidebar
   function w3_open() {
