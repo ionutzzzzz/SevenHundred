@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SevenHundred</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/important.css">
+    <link rel="stylesheet" href="../css/animation.css">
+
+    <link rel="stylesheet" href="../css/mdb.dark.min.css">
+    <link rel="stylesheet" href="../css/mdb.min.css">
+</head>
+
+<body class="w3-content">
+
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-bar-block w3-collapse w3-top navbar-style monalisa-navbar" id="mySidebar">
+        <div class="w3-container w3-display-container w3-padding-16">
+            <h3 class="w3-wide text-white-gray">
+                <a href="http://">
+                    <img class="img-fluid image-banner" src="../img/Logo320x320.png">
+                </a>
+            </h3>
+        </div>
+
+        <div class="w3-padding-32 w3-large text-white-gray text-bold">
+            <a href="#" class="w3-bar-item w3-button">Shirts</a>
+            <a onclick="myAccFunc()" href="javascript:void(0)" class="w3-button w3-block text-white-gray w3-left-align"
+                id="myBtn">
+                Hoodies <i class="fa fa-caret-down"></i>
+            </a>
+            <div id="demoAcc" class="w3-bar-block w3-hide w3-padding-large w3-medium">
+                <!-- <a href="#" class="w3-bar-item w3-button text-white-gray"><i
+            class="fa fa-caret-right w3-margin-right"></i>Skinny</a> -->
+                <a href="../pages/monalisa.html" class="w3-bar-item w3-button">Mona Lisa</a>
+                <a href="../pages/lollipop.html" class="w3-bar-item w3-button">Lollipop</a>
+                <a href="../pages/higheffect.html" class="w3-bar-item w3-button">High Effect</a>
+                <!-- <a href="#" class="w3-bar-item w3-button"></a> -->
+
+            </div>
+            <a href="../pages/shop.html" class="w3-bar-item w3-button">Shop</a>
+            <a href="../pages/" class="w3-bar-item w3-button">Cart</a>
+        </div>
+
+
+        <a href="#footer" class="w3-bar-item w3-button w3-padding text-white">Contact</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding text-white d-sm-none d-md-block"
+            onclick="document.getElementById('newsletter').style.display='block'">Notify</a>
+        <a href="#footer" class="w3-bar-item w3-button w3-padding text-white">Subscribe</a>
+
+    </nav>
+
+    <!-- Top menu on small screens -->
+    <header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+        <div class="w3-bar-item w3-padding-24 w3-wide">
+            <a href="http://" class="text-white-gray">#SevenHundred</a>
+        </div>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right d-sm-none d-md-block"
+            onclick="call()">
+            <button class="navbar-toggler first-button" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarToggleExternalContent9" aria-controls="navbarToggleExternalContent9"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon1"><span></span><span></span><span></span></div>
+            </button>
+        </a>
+
+    </header>
+
+
+    <!-- PAGE CONTENT MAIN -->
+    <div class="w3-main" style="margin-left:200px">
+
+        <!-- Push down content on small screens -->
+        <div class="w3-hide-large" style="margin-top:83px"></div>
+
+        <!-- Top header -->
+
+        <header class="w3-container pt-md-5 w3-center w3-black" id="home">
+            <div class="m-3 typewriter">
+                <h1 class="w3-jumbo"><span class="w3-hide-small">SevenHundred</span></h1>
+            </div>
+            <p class="text-title-banner">Suck It Like A Lollipop Collection.</p>
+        </header>
+    </div>
+    
+
+    <div class="bg-black w3-center align-items-center dark margin-left-navbar">
+        <div class="h-37"></div>
+        <h2 class="text-white text-font-20 text-bold">Dress To Impress.</h2>
+        <div class="h-37"></div>
+    </div>
+
+    <!-- Shop Images -->
+
+    <div class="w3-col l3 s12 dark">
+        <div class="w3-container">
+            <div class="w3-display-container">
+                <img src="../img/lollipopblack.jpeg" class="hood-image-size image-brightness">
+                <span class="w3-tag w3-display-topleft">New</span>
+                <div class="w3-display-middle w3-display-hover">
+                    <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                </div>
+            </div>
+            <p class="pt-2">Mona Lisa Dark<br><b>$39.99</b></p>
+        </div>
+        <div class="w3-container">
+            <div class="w3-display-container">
+                <img src="../img/lollipopdarkblue.jpeg" class="hood-image-size image-brightness">
+                <span class="w3-tag w3-display-topleft">New</span>
+                <div class="w3-display-middle w3-display-hover">
+                    <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                </div>
+            </div>
+            <p class="pt-2">Mona Lisa Gray<br><b>$39.99</b></p>
+        </div>
+    </div>
+
+    <div class="w3-col l3 s12 dark">
+        <div class="w3-container">
+            <div class="w3-display-container">
+                <img src="../img/lollipopwhite.jpeg" class="hood-image-size image-brightness">
+                <span class="w3-tag w3-display-topleft">Sale</span>
+                <div class="w3-display-middle w3-display-hover">
+                    <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                </div>
+            </div>
+            <p class="pt-2">Mona Lisa White<br><b>$39.99</b></p>
+        </div>
+        <div class="w3-container">
+            <div class="w3-display-container">
+                <img src="../img/lollipopbrown.jpeg" class="hood-image-size image-brightness">
+                <span class="w3-tag w3-display-topleft">Sale</span>
+                <div class="w3-display-middle w3-display-hover">
+                    <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                </div>
+            </div>
+            <p class="pt-2">Mona Lisa Brown<br><b>$39.99</b></p>
+        </div>
+    </div>
+
+    <div class="w3-col l3 s12 dark">
+        <div class="w3-container">
+            <div class="w3-display-container">
+                <img src="../img/lollipoppink.jpeg" class="hood-image-size image-brightness">
+                <span class="w3-tag w3-display-topleft">New</span>
+                <div class="w3-display-middle w3-display-hover">
+                    <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                </div>
+            </div>
+            <p class="pt-2">Mona Lisa Pink<br><b>$39.99</b></p>
+        </div>
+        <div class="w3-container">
+            <div class="w3-display-container">
+                <img src="../img/lollipopaqua.jpeg" class="hood-image-size image-brightness">
+                <span class="w3-tag w3-display-topleft">New</span>
+                <div class="w3-display-middle w3-display-hover">
+                    <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+                </div>
+            </div>
+            <p class="pt-2">Mona Lisa Light Blue<br><b>$39.99</b></p>
+        </div>
+    </div>
+
+    <!-- Navigate Between Pages -->
+
+    <div class="row dark">
+        <div class="col-6">
+            <a href="./monalisa.html" class="btn btn-primary m-3">BACK</a>
+        </div>
+        <div class="col-6">
+            <a href="./higheffect.html" class="btn btn-primary m-3" style="float: right;">
+            next</a>
+        </div>
+    </div>
+
+
+    <!-- End page content -->
+
+    <section class="d-block">
+        <div class="w3-black w3-center w3-padding-24">
+            <span class="text-white-gray">&copy; Copyright</span>
+            <span>
+                <div class="text-center ">
+                    <h3 class="animate-charcter" style="font-size: 19px;"> #SevenHundred</h3>
+                </div>
+            </span>
+        </div>
+    </section>
+
+    </div>
+
+    <!-- Newsletter Modal -->
+    <div id="newsletter" class="w3-modal">
+        <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
+            <div class="w3-container w3-white w3-center">
+                <i onclick="document.getElementById('newsletter').style.display='none'"
+                    class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+                <h2 class="w3-wide">NEWSLETTER</h2>
+                <p>Join our mailing list to receive updates on new arrivals and special offers.</p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+                <button type="button" class="w3-button w3-padding-large w3-red w3-margin-bottom"
+                    onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../js/main.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/mdb.min.js"></script>
+</body>
+
+</html>
