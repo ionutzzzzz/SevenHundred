@@ -7,6 +7,9 @@
         font-size: 30px !important;
 
     }
+    .navbar-style{
+        width: 85% !important;
+    }
  }
 
  /* Medium devices (tablets, 768px and up) */
@@ -14,6 +17,7 @@
     .image-banner{
         width: 100% !important;
     }
+    
  }
 
  /* Large devices (desktops, 992px and up) */

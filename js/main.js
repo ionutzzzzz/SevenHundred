@@ -11,9 +11,9 @@ function myAccFunc() {
   // Click on the "Jeans" link on page load to open the accordion for demo purposes
   document.getElementById("myBtn").click();
   
-  
-function call(){
   var k = 0;
+function call(){
+  k++;
   if(k % 2 == 0)
   {
     w3_close();
